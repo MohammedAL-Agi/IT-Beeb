@@ -1,0 +1,32 @@
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.myradio{
+    display: inline-flex;
+    overflow: hidden;
+}
+.radio_label{
+    padding: 8px 10px;
+    font-size: 13px;
+    background: #4286f5;
+    color: white;
+    transition: background-color 0.1s;
+    margin:5px ;
+    cursor: pointer;
+    border-radius:2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.radio_input:checked + .radio_label{
+    background: #0b58ca;
+
+}
